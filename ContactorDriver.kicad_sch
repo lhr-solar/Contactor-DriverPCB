@@ -1377,6 +1377,11 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 7090817c-8762-44da-8eed-51159efe992b)
   )
+  (text "Helps pre-charge the contactors and controls the \ncontactors for high voltage components."
+    (at 210.82 21.59 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d0c37f05-6caa-48cd-b24e-23c4b9c5e847)
+  )
   (text "Precharge" (at 110.49 123.19 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid ec602d74-859c-40ee-8cc0-3812516c5042)
