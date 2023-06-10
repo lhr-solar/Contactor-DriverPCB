@@ -516,6 +516,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
+    (model "${KIPRJMOD}/UTSVTKiCadLibraries/utsvt3d/connectors.3dshapes/436500415.stp"
+      (offset (xyz 4.5 2 10))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 180))
+    )
   )
 
   (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal" (layer "F.Cu")
@@ -591,6 +596,11 @@
       (offset (xyz 1.5 4 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -180))
+    )
+    (model "${KIPRJMOD}/UTSVTKiCadLibraries/utsvt3d/connectors.3dshapes/43645-0200.stp"
+      (offset (xyz 1.5 3.5 1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -682,6 +692,11 @@
       (offset (xyz 1.5 0 5.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/UTSVTKiCadLibraries/utsvt3d/connectors.3dshapes/43650-0215.stp"
+      (offset (xyz 1.5 0 4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1955,7 +1970,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/UTSVTKiCadLibraries/utsvt3d/43645-0200.stp"
+    (model "${KIPRJMOD}/UTSVTKiCadLibraries/utsvt3d/connectors.3dshapes/43645-0200.stp"
       (offset (xyz 1.5 3.5 1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2032,6 +2047,11 @@
       (rotate (xyz 0 0 0))
     )
     (model "${KIPRJMOD}/UTSVTKiCadLibraries/utsvt3d/43645-0200.stp"
+      (offset (xyz 1.5 3.5 1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+    (model "${KIPRJMOD}/UTSVTKiCadLibraries/utsvt3d/connectors.3dshapes/43645-0200.stp"
       (offset (xyz 1.5 3.5 1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
