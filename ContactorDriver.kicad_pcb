@@ -1822,6 +1822,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 90 -90))
     )
+    (model "${KIPRJMOD}/UTSVTKiCadLibraries/utsvt3d/connectors.3dshapes/151035-0002.stp"
+      (offset (xyz 7 -16.5 7))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 90 0))
+    )
   )
 
   (footprint "Connector_Wire:SolderWirePad_1x01_Drill2mm" (layer "F.Cu")
