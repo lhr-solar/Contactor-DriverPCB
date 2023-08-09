@@ -1,7 +1,8 @@
 (sym_lib_table
-  (lib (name "utsvt-power-regulators")(type "Legacy")(uri "${KIPRJMOD}/common/utsvt-power-regulators.lib")(options "")(descr ""))
-  (lib (name "utsvt-connectors")(type "Legacy")(uri "${KIPRJMOD}/common/utsvt-connectors.lib")(options "")(descr ""))
-  (lib (name "utsvt-chips")(type "Legacy")(uri "${KIPRJMOD}/common/utsvt-chips.lib")(options "")(descr ""))
-  (lib (name "utsvt-misc")(type "Legacy")(uri "${KIPRJMOD}/common/utsvt-misc.lib")(options "")(descr ""))
+  (version 7)
+  (lib (name "utsvt-power-regulators")(type "KiCad")(uri "${KIPRJMOD}/UTSVTKiCadLibraries/utsvt-power-regulators.kicad_sym")(options "")(descr ""))
+  (lib (name "utsvt-connectors")(type "KiCad")(uri "${KIPRJMOD}/UTSVTKiCadLibraries/utsvt-connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "utsvt-chips")(type "KiCad")(uri "${KIPRJMOD}/UTSVTKiCadLibraries/utsvt-chips.kicad_sym")(options "")(descr ""))
+  (lib (name "utsvt-misc")(type "KiCad")(uri "${KIPRJMOD}/UTSVTKiCadLibraries/utsvt-misc.kicad_sym")(options "")(descr ""))
   (lib (name "ContactorDriver-rescue")(type "Legacy")(uri "${KIPRJMOD}/ContactorDriver-rescue.lib")(options "")(descr ""))
 )
