@@ -1658,6 +1658,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0a7d7f36-4e8c-4c3b-9c19-f45c4ed878c4)
   )
+  (text "Bipolar Voltage Detection Circuitry" (at 133.985 70.485 0)
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
+    (uuid 2d9d4a78-dbcb-414f-a455-00ecd7370713)
+  )
   (text "Mp_vth = -1V ∴ On when PRCHRG_V ≈ 11V" (at 17.145 92.71 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3ac6178f-a0b1-4159-9499-33435a73a532)
@@ -1789,7 +1793,7 @@
   (symbol (lib_id "Device:Q_NMOS_GDS") (at 60.96 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e301b1e)
-    (property "Reference" "Q4" (at 66.1416 142.3416 0)
+    (property "Reference" "Q3" (at 66.1416 142.3416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CSD18511KTT" (at 66.1416 144.653 0)
@@ -1816,7 +1820,7 @@
     (instances
       (project "ContactorDriver"
         (path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-          (reference "Q4") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -2200,7 +2204,7 @@
   (symbol (lib_id "Device:R_Small") (at 139.065 37.465 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e3a03d5)
-    (property "Reference" "R4" (at 141.605 40.005 0)
+    (property "Reference" "R5" (at 141.605 40.005 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 141.732 37.465 0)
@@ -2217,7 +2221,7 @@
     (instances
       (project "ContactorDriver"
         (path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2400,13 +2404,13 @@
   (symbol (lib_id "utsvt-chips:INA21x") (at 169.545 95.885 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 031e655f-45fb-40e5-81fd-9f11bf337748)
-    (property "Reference" "U5" (at 176.53 86.995 0)
+    (property "Reference" "U2" (at 176.53 86.995 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "INA215" (at 176.53 89.535 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "" (at 169.545 95.885 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 169.545 95.885 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/sbos437j/sbos437j.pdf?ts=1682806329373&ref_url=https%253A%252F%252Fwww.google.com%252F" (at 169.545 114.935 0)
@@ -2421,7 +2425,7 @@
     (instances
       (project "ContactorDriver"
         (path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-          (reference "U5") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2464,13 +2468,13 @@
   (symbol (lib_id "Device:R_Small") (at 44.45 149.86 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 118fbb36-885c-411a-8b74-beae9c2321ad)
-    (property "Reference" "R6" (at 45.9486 148.6916 0)
+    (property "Reference" "R2" (at 45.9486 148.6916 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 45.9486 151.003 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 44.45 149.86 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 44.45 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.com/datasheet/2/210/Kamaya_RMC_automotive_series_8_2022__1_-3032429.pdf" (at 44.45 149.86 0)
@@ -2481,7 +2485,7 @@
     (instances
       (project "ContactorDriver"
         (path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-          (reference "R6") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2678,7 +2682,7 @@
   (symbol (lib_id "Device:R_Small") (at 131.445 156.845 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6701ab11-e02b-448c-b00e-f0a53569aa67)
-    (property "Reference" "R2" (at 126.4666 156.845 90)
+    (property "Reference" "R3" (at 126.4666 156.845 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 128.778 156.845 90)
@@ -2695,7 +2699,7 @@
     (instances
       (project "ContactorDriver"
         (path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-          (reference "R2") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2704,7 +2708,7 @@
   (symbol (lib_id "power:+12V") (at 44.45 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 770e54e6-8371-4613-9933-3aa9b345ff96)
-    (property "Reference" "#PWR013" (at 44.45 137.16 0)
+    (property "Reference" "#PWR01" (at 44.45 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 44.831 128.9558 0)
@@ -2720,7 +2724,7 @@
     (instances
       (project "ContactorDriver"
         (path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2754,7 +2758,7 @@
   (symbol (lib_id "Device:R_Small") (at 131.445 163.195 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85e6981f-dcce-48c2-9098-b7f80088ebb1)
-    (property "Reference" "R3" (at 126.4666 163.195 90)
+    (property "Reference" "R4" (at 126.4666 163.195 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2k" (at 128.778 163.195 90)
@@ -2771,7 +2775,7 @@
     (instances
       (project "ContactorDriver"
         (path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-          (reference "R3") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -3068,7 +3072,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 170.815 111.125 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9630e62-fbf2-409b-8ee8-71561b29fc85)
-    (property "Reference" "FB4" (at 168.275 111.125 90)
+    (property "Reference" "FB2" (at 168.275 111.125 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FerriteBead_Small" (at 167.005 112.4331 90)
@@ -3085,7 +3089,7 @@
     (instances
       (project "ContactorDriver"
         (path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-          (reference "FB4") (unit 1)
+          (reference "FB2") (unit 1)
         )
       )
       (project "BPS-Amperes"
