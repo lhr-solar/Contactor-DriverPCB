@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Contactor Driver")
+    (rev "2.0")
+    (company "Manthan Upadhyaya")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)
@@ -1683,14 +1689,23 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 82af85af-d405-4cdc-a028-c881c327214d)
   )
+  (text "On when Contactor AUX = 1 (Both sides of precharge\ncontactor are connected to HV lines)"
+    (at 67.945 140.335 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9c1227fb-f889-452f-9a3b-85890811f7af)
+  )
   (text "Power Distribution" (at 59.055 26.67 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid abf0ce7e-6cba-4a80-b25b-4a4c750678b3)
   )
-  (text "EN_CURR = 12V, (PRCHRG_V * .0215 * 50V) > 12V\n		≈ PRECHRG_V, (PRCHRG_V * .0215 * 50V) < 12V\n"
-    (at 199.39 97.79 0)
+  (text "EN_CURR = 12V, (PRCHRG_V * .0215 * 50V) > 12V\n		≈ PRECHRG_V, (PRCHRG_V * .0215 * 50V) < 12V\n\nDetects current through Precharge Resistor through \nvoltage divider and saturates at 12/R_Precharge.\n\n"
+    (at 198.12 104.775 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d510aecc-1987-4634-a46a-21a3d504ef36)
+  )
+  (text "On when I_PRCHRG_RES ≈ 0" (at 65.405 92.71 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d52b4e90-8b24-460e-8c31-360070db4eb3)
   )
   (text "Precharge Contactor Control" (at 31.75 81.28 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
