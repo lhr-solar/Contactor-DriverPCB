@@ -2329,7 +2329,7 @@
   (gr_text "+" (at 170 79.5) (layer "F.SilkS") (tstamp ed85aa6c-8481-4517-83a6-3db05488f21d)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "UTSVT\nPrecharge/Contactor Driver v2.0\nSpring 2023 - Da OG Manatee" (at 227.1 138 90) (layer "F.SilkS") (tstamp f5e58485-29d3-42f9-ab8a-d0a53e4a1128)
+  (gr_text "UTSVT\nPrecharge/Contactor Driver v2.1\nFall 2023 - Da OG Manatee" (at 227.1 138 90) (layer "F.SilkS") (tstamp f5e58485-29d3-42f9-ab8a-d0a53e4a1128)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (dimension (type aligned) (layer "Cmts.User") (tstamp 48bf34bc-dde0-4294-adaa-8dbf37d58324)

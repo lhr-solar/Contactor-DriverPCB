@@ -6,7 +6,7 @@
 
   (title_block
     (title "Contactor Driver")
-    (rev "2.0")
+    (rev "2.1")
     (company "Manthan Upadhyaya")
   )
 
@@ -1189,7 +1189,6 @@
       )
     )
   )
-
 
   (junction (at 27.94 45.72) (diameter 0) (color 0 0 0 0)
     (uuid 021e0c9b-4c77-4f6e-a878-be6c977beeb0)
