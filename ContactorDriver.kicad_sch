@@ -2946,8 +2946,8 @@
     )
   )
 
-  (symbol (lib_id "utsvt-power-regulators:RI3-xxxxS") (at 74.93 35.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "utsvt-power-regulators:RI3-xxxxS") (at 74.93 35.56 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid b1de68ee-81a7-4777-a436-2e51f3572b89)
     (property "Reference" "U1" (at 74.93 33.02 0)
       (effects (font (size 1.27 1.27)))
