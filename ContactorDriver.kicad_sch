@@ -3864,7 +3864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e39508f")
-		(property "Reference" "H3"
+		(property "Reference" "H1"
 			(at 278.13 135.3566 0)
 			(effects
 				(font
@@ -3912,7 +3912,7 @@
 		(instances
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "H3")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3927,7 +3927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e3953d3")
-		(property "Reference" "H4"
+		(property "Reference" "H2"
 			(at 278.13 141.7066 0)
 			(effects
 				(font
@@ -3975,7 +3975,7 @@
 		(instances
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3990,7 +3990,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e3955f8")
-		(property "Reference" "H5"
+		(property "Reference" "H3"
 			(at 278.13 148.0566 0)
 			(effects
 				(font
@@ -4038,7 +4038,7 @@
 		(instances
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "H5")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4053,7 +4053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e39580c")
-		(property "Reference" "H6"
+		(property "Reference" "H4"
 			(at 278.13 154.4066 0)
 			(effects
 				(font
@@ -4101,7 +4101,7 @@
 		(instances
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "H6")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -4520,69 +4520,6 @@
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 275.59 161.925 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e3b83e4")
-		(property "Reference" "H7"
-			(at 278.13 160.7566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 278.13 163.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 275.59 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 275.59 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "ContactorDriver"
-				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "H7")
 					(unit 1)
 				)
 			)
