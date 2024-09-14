@@ -3854,7 +3854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e301b69")
-		(property "Reference" "AStatus"
+		(property "Reference" "AStatus1"
 			(at 40.4622 115.6716 90)
 			(effects
 				(font
@@ -3917,7 +3917,7 @@
 		(instances
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "AStatus")
+					(reference "AStatus1")
 					(unit 1)
 				)
 			)
@@ -4547,7 +4547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e3a03dc")
-		(property "Reference" "12VStatus"
+		(property "Reference" "12VStatus1"
 			(at 151.13 44.196 90)
 			(effects
 				(font
@@ -4610,7 +4610,7 @@
 		(instances
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "12VStatus")
+					(reference "12VStatus1")
 					(unit 1)
 				)
 			)
@@ -6909,7 +6909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdf61b63-692c-4000-addc-9615fc81833e")
-		(property "Reference" "BStatus"
+		(property "Reference" "BStatus1"
 			(at 106.5022 115.6716 90)
 			(effects
 				(font
@@ -6972,7 +6972,7 @@
 		(instances
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "BStatus")
+					(reference "BStatus1")
 					(unit 1)
 				)
 			)
