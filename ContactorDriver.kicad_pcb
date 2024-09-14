@@ -896,7 +896,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 1.93 270)
+			(at 0 1.93 -90)
 			(layer "F.SilkS")
 			(uuid "fbd36c11-6e0f-485f-b619-d724ec2d5216")
 			(effects
@@ -907,7 +907,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "853b47d5-f4c5-4421-82c6-b04bd2620fa3")
 			(effects
@@ -1072,7 +1072,7 @@
 			(uuid "8cdaae40-b503-45af-98e6-ecc2616ec01d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "bfd6e9b1-1dde-439d-9fc6-356375ec0d95")
 			(effects
@@ -1521,7 +1521,7 @@
 			)
 		)
 		(fp_text user "0.041in/1.041mm"
-			(at 0.6383 3.975 270)
+			(at 0.6383 3.975 -90)
 			(layer "Dwgs.User")
 			(hide yes)
 			(uuid "a0cd746f-5ad1-4bbb-a0f9-17ca36078b72")
@@ -4072,7 +4072,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D4"
-			(at 0 2 270)
+			(at 0 2 -90)
 			(layer "F.SilkS")
 			(uuid "80f42279-c0cd-4d67-a437-c58d6d5db5c8")
 			(effects
@@ -4083,7 +4083,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "bc3962a9-0d8d-42e9-8f7b-62ae7c58309c")
 			(effects
@@ -4268,7 +4268,7 @@
 			(uuid "d633b3f4-e1cb-43b8-a786-1126196982bf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "ffbf256e-e73b-4a8f-b7b0-e7ea2c84e77a")
 			(effects
@@ -4317,7 +4317,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D1"
-			(at -3 0 360)
+			(at -3 0 0)
 			(layer "F.SilkS")
 			(uuid "5abd2c1e-c207-4aea-9b6c-21c7e563365f")
 			(effects
@@ -4328,7 +4328,7 @@
 			)
 		)
 		(property "Value" "SD12_SOD323"
-			(at 0.1 1.9 270)
+			(at 0.1 1.9 -90)
 			(layer "F.Fab")
 			(uuid "85127c6e-c487-401d-b558-178a80aea5ba")
 			(effects
@@ -4563,7 +4563,7 @@
 			(uuid "be5b3fda-d579-4dcf-add2-d9c7b03dca12")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 270)
+			(at 0 -1.85 -90)
 			(layer "F.Fab")
 			(uuid "f986d6a0-70b6-468b-a4de-872cba95d8de")
 			(effects
@@ -4612,7 +4612,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 2.95 0 360)
+			(at 2.95 0 0)
 			(layer "F.SilkS")
 			(uuid "c6c2eb8c-5c98-4cac-916a-930e1bf0b2f1")
 			(effects
@@ -4623,7 +4623,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "00583418-c7d7-48bd-8a19-10d869a74d3b")
 			(effects
@@ -4788,7 +4788,7 @@
 			(uuid "dbf12e0c-961b-41bb-a080-02dd25d57b35")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "e0d80f23-7e23-4428-92ce-62db54466c5a")
 			(effects
@@ -5656,7 +5656,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D2"
-			(at 0 2 270)
+			(at 0 2 -90)
 			(layer "F.SilkS")
 			(uuid "b2b17d7b-ed77-40e2-9248-75c9c7a1484e")
 			(effects
@@ -5667,7 +5667,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "4cabde08-3e6e-41aa-85e3-4d442d6549c7")
 			(effects
@@ -5852,7 +5852,7 @@
 			(uuid "32bb3a31-8fa6-4ea1-8d9c-2e3a082aa087")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "a1628d76-0313-4312-9976-d5c3f23e2bd8")
 			(effects

@@ -1616,102 +1616,6 @@
 				)
 			)
 		)
-		(symbol "GND_1"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -2256,6 +2160,12 @@
 		(uuid "0fcc9bd0-ae17-4df2-a127-d67b779e27d9")
 	)
 	(junction
+		(at 129.54 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26b92238-463b-4b35-8ea4-5869e2fa5fb9")
+	)
+	(junction
 		(at 113.665 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2266,6 +2176,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "672df3a1-b6bd-4656-83dd-3fe5db39da60")
+	)
+	(junction
+		(at 63.5 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c183a8d-2f35-4eee-8c42-1c0c15f509e8")
 	)
 	(junction
 		(at 57.15 38.1)
@@ -2310,6 +2226,12 @@
 		(uuid "9d76795b-7af4-4836-b8c4-fc499cd9dcee")
 	)
 	(junction
+		(at 129.54 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a607b2b6-3374-48c4-848e-c19297e35f69")
+	)
+	(junction
 		(at 63.5 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2328,10 +2250,22 @@
 		(uuid "c697f984-8711-479f-8b4b-a81b626cf363")
 	)
 	(junction
+		(at 114.3 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9b3457e-0e73-4099-aa3a-6921259502da")
+	)
+	(junction
 		(at 57.15 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc061c1e-447c-4a1d-9f0f-eb368b6b3b8e")
+	)
+	(junction
+		(at 114.3 106.045)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7079873-5a27-4fa3-b1e0-5ee63fa90cb3")
 	)
 	(junction
 		(at 63.5 106.045)
@@ -2340,10 +2274,22 @@
 		(uuid "de67ccc8-a318-48c3-9cce-beebd97de70e")
 	)
 	(junction
+		(at 129.54 106.045)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6560e7f-ed11-48b5-8b9b-712921dfd443")
+	)
+	(junction
 		(at 63.5 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6f0ab5b-8b46-4577-abe5-6728be107561")
+	)
+	(junction
+		(at 110.49 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7c6de59-09bc-471d-9495-b3fef8b42827")
 	)
 	(junction
 		(at 44.45 143.51)
@@ -2352,11 +2298,19 @@
 		(uuid "fd41a247-26ae-425e-8923-304ba7c9ec62")
 	)
 	(no_connect
-		(at 78.74 116.84)
+		(at 146.05 116.84)
+		(uuid "0eb3d3d8-08f2-4fd7-baa1-3a95563906de")
+	)
+	(no_connect
+		(at 146.05 119.38)
+		(uuid "10a2d35f-e817-4745-86cb-51fc51b8a7b0")
+	)
+	(no_connect
+		(at 80.01 116.84)
 		(uuid "67b0e7e6-43f2-48fa-a604-060c3ab732e8")
 	)
 	(no_connect
-		(at 78.74 119.38)
+		(at 80.01 119.38)
 		(uuid "e0da6792-c9d7-413b-8114-fa51282b0ec7")
 	)
 	(wire
@@ -2371,13 +2325,33 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 90.805) (xy 63.5 106.045)
+			(xy 104.775 106.045) (xy 114.3 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0455f55e-cbb0-458a-874b-a81a58629d99")
+	)
+	(wire
+		(pts
+			(xy 63.5 90.805) (xy 63.5 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0774b855-0d96-416b-a779-1663f8dd397f")
+	)
+	(wire
+		(pts
+			(xy 110.49 143.51) (xy 105.41 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a67358-fe50-470c-91c3-b2274f400813")
 	)
 	(wire
 		(pts
@@ -2441,6 +2415,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 116.84) (xy 114.3 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b41f29-da0d-47ae-92a1-d4c0baec1524")
+	)
+	(wire
+		(pts
 			(xy 44.45 152.4) (xy 44.45 154.94)
 		)
 		(stroke
@@ -2448,6 +2432,16 @@
 			(type default)
 		)
 		(uuid "13ed5816-291a-413e-914e-cac1cafe1782")
+	)
+	(wire
+		(pts
+			(xy 114.3 120.65) (xy 129.54 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14158c47-4ff6-4069-afeb-6d90c73c0826")
 	)
 	(wire
 		(pts
@@ -2471,7 +2465,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 90.17) (xy 139.7 86.995)
+			(xy 214.63 91.44) (xy 214.63 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2541,6 +2535,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 148.59) (xy 129.54 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f932706-b0c4-4fae-b65f-5c54d673a3dc")
+	)
+	(wire
+		(pts
 			(xy 71.12 52.705) (xy 63.5 52.705)
 		)
 		(stroke
@@ -2548,6 +2552,26 @@
 			(type default)
 		)
 		(uuid "40238a2a-dae8-490f-8ad1-afcbdab6093d")
+	)
+	(wire
+		(pts
+			(xy 110.49 152.4) (xy 110.49 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c314e0-1708-47e8-9573-3237ea2a633b")
+	)
+	(wire
+		(pts
+			(xy 104.775 120.65) (xy 104.775 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425da620-f63c-470b-8918-49e6d55cfacd")
 	)
 	(wire
 		(pts
@@ -2561,7 +2585,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 114.3) (xy 78.74 114.3)
+			(xy 114.3 106.045) (xy 114.3 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e246a27-095d-449a-a650-c68cab9a7391")
+	)
+	(wire
+		(pts
+			(xy 63.5 114.3) (xy 80.01 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2588,6 +2622,16 @@
 			(type default)
 		)
 		(uuid "568c5731-4dc3-4362-960b-190691b88760")
+	)
+	(wire
+		(pts
+			(xy 129.54 120.65) (xy 129.54 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a94f28-113a-40d3-9c92-ff138c5e29b1")
 	)
 	(wire
 		(pts
@@ -2641,7 +2685,17 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 90.17) (xy 158.75 86.995)
+			(xy 129.54 114.3) (xy 146.05 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77013f85-18b1-4089-b04a-a834916cc5e0")
+	)
+	(wire
+		(pts
+			(xy 233.68 91.44) (xy 233.68 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2668,6 +2722,16 @@
 			(type default)
 		)
 		(uuid "7811ea04-a210-4287-9f2d-5e80c494e5e1")
+	)
+	(wire
+		(pts
+			(xy 104.775 106.045) (xy 104.775 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a43f338-4a1e-45c7-9f91-1adc9ff5e195")
 	)
 	(wire
 		(pts
@@ -2698,6 +2762,16 @@
 			(type default)
 		)
 		(uuid "7ec499e7-3b13-4e5f-a659-ed51bf39a336")
+	)
+	(wire
+		(pts
+			(xy 251.46 84.455) (xy 251.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f39ff04-3167-45ff-99a4-6d21ba746a57")
 	)
 	(wire
 		(pts
@@ -2751,6 +2825,36 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 154.94) (xy 129.54 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8956663b-c97c-4b96-85b6-da986bcb1588")
+	)
+	(wire
+		(pts
+			(xy 129.54 154.94) (xy 129.54 158.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2e35ea-bb59-4da5-93a7-4797e2d6ad3f")
+	)
+	(wire
+		(pts
+			(xy 104.775 120.65) (xy 114.3 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0d1a7d-da37-485f-918e-34add9b07b59")
+	)
+	(wire
+		(pts
 			(xy 27.94 38.1) (xy 25.4 38.1)
 		)
 		(stroke
@@ -2771,6 +2875,36 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 91.44) (xy 251.46 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d6e192-6679-4917-89ad-8c47c63c0ba2")
+	)
+	(wire
+		(pts
+			(xy 63.5 91.44) (xy 63.5 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85a51c0-7f79-4afe-9b1e-9ccfe00f9cef")
+	)
+	(wire
+		(pts
+			(xy 63.5 91.44) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa414488-0770-474b-9398-e01a1ad57a3d")
+	)
+	(wire
+		(pts
 			(xy 44.45 135.89) (xy 44.45 140.97)
 		)
 		(stroke
@@ -2781,13 +2915,63 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 80.01) (xy 139.7 84.455)
+			(xy 110.49 143.51) (xy 110.49 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9e4e43-29fc-4bfb-ac88-95489d229329")
+	)
+	(wire
+		(pts
+			(xy 114.3 106.045) (xy 129.54 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b19cc21a-2664-4665-8300-75317ffa5020")
+	)
+	(wire
+		(pts
+			(xy 129.54 91.44) (xy 129.54 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2019466-0832-4a09-bcc6-a74e5109d84c")
+	)
+	(wire
+		(pts
+			(xy 214.63 84.455) (xy 214.63 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b756394d-fd2e-4d7b-9e27-6fd19cb7637f")
+	)
+	(wire
+		(pts
+			(xy 110.49 140.97) (xy 105.41 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6eba8f-7b68-4f14-a338-b7a533037b7e")
+	)
+	(wire
+		(pts
+			(xy 110.49 135.89) (xy 110.49 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be05edd8-a3d2-4009-9044-58ede16f2b3b")
 	)
 	(wire
 		(pts
@@ -2801,13 +2985,33 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 80.01) (xy 158.75 84.455)
+			(xy 129.54 111.76) (xy 129.54 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3444c38-e10f-4356-926e-6bbc4ba7581e")
+	)
+	(wire
+		(pts
+			(xy 233.68 84.455) (xy 233.68 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c4c8f562-6629-430c-b115-82b24f3c2a9f")
+	)
+	(wire
+		(pts
+			(xy 129.54 138.43) (xy 129.54 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c707f837-eced-49bd-9017-4d3ca230d2b2")
 	)
 	(wire
 		(pts
@@ -2831,7 +3035,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 111.76) (xy 78.74 111.76)
+			(xy 63.5 111.76) (xy 80.01 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2848,6 +3052,26 @@
 			(type default)
 		)
 		(uuid "d599faea-4d83-4653-9cf9-a236c41c1b1a")
+	)
+	(wire
+		(pts
+			(xy 104.775 114.3) (xy 104.775 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8b2d2f-3bfb-41f8-aa93-e88b8c1dcf2a")
+	)
+	(wire
+		(pts
+			(xy 110.49 143.51) (xy 121.92 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e5acef-5d53-4361-b99f-3bead3c4a25d")
 	)
 	(wire
 		(pts
@@ -2921,6 +3145,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 111.76) (xy 146.05 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f841c151-71e6-437a-97d8-42748a13b91c")
+	)
+	(wire
+		(pts
 			(xy 86.36 44.45) (xy 100.965 44.45)
 		)
 		(stroke
@@ -2981,6 +3215,30 @@
 		)
 		(uuid 7e71adbe-0099-4a31-bc48-e9a7a1e47c08)
 	)
+	(rectangle
+		(start 240.03 78.74)
+		(end 257.81 113.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 95376632-43f8-4fb0-bdf3-6bbc912c485f)
+	)
+	(rectangle
+		(start 204.47 78.74)
+		(end 237.49 113.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b164f9b6-cd2d-4bec-a559-0f28d20dd205)
+	)
 	(text "Version History"
 		(exclude_from_sim no)
 		(at 202.565 16.51 0)
@@ -3004,6 +3262,16 @@
 			(justify left bottom)
 		)
 		(uuid "0a7d7f36-4e8c-4c3b-9c19-f45c4ed878c4")
+	)
+	(text "Drives 2 Fans"
+		(exclude_from_sim no)
+		(at 84.836 107.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "164d6671-e275-488f-bd17-fe8d9fe0fbe5")
 	)
 	(text "v1.0\n- Allows control for 2 contactors, one to control precharge & one for power enable\n- LED's show whether contactors are closed & if power is enabled (3 LED's)\nv2.0\n- Controls only 1 precharge contactor\n- Input will just tell whether both sides are connected to power\n- Add comparator circuitry to determine whether precharge is complete\nv2.1\n- Changed Precharge Contactor Connector to be Molex Microfit since 3A max \ncurrent load at <.5s\nv2.1-Daybreak\n- Removed precharge resistor\n- Contactor is now driven exclusively by Controls"
 		(exclude_from_sim no)
@@ -3038,17 +3306,6 @@
 		)
 		(uuid "6def384d-ed2c-4150-8b6a-b068408c2ddb")
 	)
-	(text "On when Contactor AUX = 1 (Both sides of precharge\ncontactor are connected to HV lines)"
-		(exclude_from_sim no)
-		(at 67.945 140.335 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c1227fb-f889-452f-9a3b-85890811f7af")
-	)
 	(text "Power Distribution"
 		(exclude_from_sim no)
 		(at 59.055 26.67 0)
@@ -3062,9 +3319,39 @@
 		)
 		(uuid "abf0ce7e-6cba-4a80-b25b-4a4c750678b3")
 	)
+	(text "Driven by A"
+		(exclude_from_sim no)
+		(at 220.726 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af0bbe6d-0643-4549-ac17-ad99e761ec0f")
+	)
+	(text "Drives 1 Fan"
+		(exclude_from_sim no)
+		(at 150.622 107.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aff7fff5-5d7c-44a1-9d63-046af1e06606")
+	)
+	(text "Driven by B"
+		(exclude_from_sim no)
+		(at 248.92 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7b58d23-aa61-4424-8a9a-dfeb5d9b2eeb")
+	)
 	(text "Fan Power Distribution"
 		(exclude_from_sim no)
-		(at 125.476 70.358 0)
+		(at 208.026 76.073 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3088,7 +3375,18 @@
 		)
 		(uuid "ec602d74-859c-40ee-8cc0-3812516c5042")
 	)
-	(label "CONTACTOR_V+"
+	(text "NO input"
+		(exclude_from_sim no)
+		(at 95.25 147.955 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1b82c36-bad6-4cb7-be0f-bec66ad56115")
+	)
+	(label "CONTACTOR_A_V+"
 		(at 64.77 111.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3099,7 +3397,18 @@
 		)
 		(uuid "3161a9e0-ea5b-495c-a79e-e138814cdc01")
 	)
-	(label "CONTACTOR_V-"
+	(label "CONTACTOR_B_V-"
+		(at 130.81 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70e83870-30c0-4e40-bec4-dba47c9c150e")
+	)
+	(label "CONTACTOR_A_V-"
 		(at 64.77 114.3 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3109,6 +3418,50 @@
 			(justify left bottom)
 		)
 		(uuid "7f71a005-6020-42ca-bd5a-044c22334262")
+	)
+	(label "CONTACTOR_B_V+"
+		(at 130.81 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9de80224-2fbc-4fa6-8e24-3b93ffa18431")
+	)
+	(label "CONTACTOR_B_V-"
+		(at 251.46 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6153be5-48cb-4d43-9d7e-7de867dc5a73")
+	)
+	(label "CONTACTOR_A_V-"
+		(at 233.68 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d11cf965-d7a0-4a3d-8138-86cfa43f56ce")
+	)
+	(label "CONTACTOR_A_V-"
+		(at 214.63 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f76c65f2-a775-4d36-bcf2-d76e1bff7cf4")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
@@ -3128,7 +3481,7 @@
 				)
 			)
 		)
-		(property "Value" "DashboardConn"
+		(property "Value" "DashboardConnA"
 			(at 34.29 138.43 0)
 			(effects
 				(font
@@ -3501,7 +3854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e301b69")
-		(property "Reference" "D2"
+		(property "Reference" "AStatus"
 			(at 40.4622 115.6716 90)
 			(effects
 				(font
@@ -3564,7 +3917,7 @@
 		(instances
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "D2")
+					(reference "AStatus")
 					(unit 1)
 				)
 			)
@@ -4194,8 +4547,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e3a03dc")
-		(property "Reference" "D4"
-			(at 137.3378 43.9166 90)
+		(property "Reference" "12VStatus"
+			(at 151.13 44.196 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4557,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 137.3378 46.228 90)
+			(at 146.812 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4257,7 +4610,7 @@
 		(instances
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "D4")
+					(reference "12VStatus")
 					(unit 1)
 				)
 			)
@@ -4527,7 +4880,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 158.75 80.01 0)
+		(at 233.68 84.455 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4535,7 +4888,7 @@
 		(dnp no)
 		(uuid "056e2c85-cfa4-40c7-b32b-8488324200c9")
 		(property "Reference" "#PWR011"
-			(at 158.75 83.82 0)
+			(at 233.68 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4897,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 159.131 75.6158 0)
+			(at 234.061 80.0608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +4905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 80.01 0)
+			(at 233.68 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +4914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 80.01 0)
+			(at 233.68 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4570,7 +4923,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 80.01 0)
+			(at 233.68 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,6 +4938,170 @@
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 246.38 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b021d94-64d8-4f44-96d8-d2a31485e2c3")
+		(property "Reference" "J8"
+			(at 246.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FanConn3"
+			(at 246.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+			(at 246.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/3/0436450200_CRIMP_HOUSINGS-2866614.pdf"
+			(at 246.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0436450200"
+			(at 246.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d3765b9-22ce-4191-808d-36845cb6e3d2")
+		)
+		(pin "2"
+			(uuid "b5e8d4d2-9188-4570-beca-8ee2bb2d7a17")
+		)
+		(instances
+			(project "ContactorDriver"
+				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 114.3 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e764244-5f1d-4cfb-96e2-31cbe98263f0")
+		(property "Reference" "D6"
+			(at 116.3066 111.8616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V2F22HM3/H"
+			(at 116.3066 114.173 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Passive:V2F22HM"
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/427/v2f22-1767661.pdf"
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/Vishay-Semiconductors/V2F22HM3-H?qs=BJlw7L4Cy78MY7ajCA04cw%3D%3D"
+			(at 114.3 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "V2F22"
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c938e188-2153-435c-8fd2-3079b22ce24c")
+		)
+		(pin "2"
+			(uuid "7acf8f0f-a967-4fa3-b508-68246e66a2ab")
+		)
+		(instances
+			(project "ContactorDriver"
+				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4761,7 +5278,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 139.7 80.01 0)
+		(at 214.63 84.455 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4769,7 +5286,7 @@
 		(dnp no)
 		(uuid "1ca16402-287b-44d9-98c0-af87b326e6d0")
 		(property "Reference" "#PWR010"
-			(at 139.7 83.82 0)
+			(at 214.63 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +5295,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 140.081 75.6158 0)
+			(at 215.011 80.0608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +5303,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 80.01 0)
+			(at 214.63 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,7 +5312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 80.01 0)
+			(at 214.63 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +5321,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 80.01 0)
+			(at 214.63 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,6 +5336,71 @@
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 110.49 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cbf20e3-1107-4302-9435-b7716e818480")
+		(property "Reference" "#PWR012"
+			(at 110.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 110.871 131.4958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a25d7ad0-2a2a-45f8-ae24-06c5a5c830a5")
+		)
+		(instances
+			(project "ContactorDriver"
+				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4892,33 +5474,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 153.67 84.455 0)
-		(mirror y)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 151.13 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3790c613-6a8c-4038-a88c-cb13fa811b38")
-		(property "Reference" "J5"
-			(at 153.67 79.375 0)
+		(uuid "350cb485-661c-4d3f-9bd5-75ced06e4187")
+		(property "Reference" "J7"
+			(at 152.4 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "FanConn2"
-			(at 153.67 81.915 0)
+		(property "Value" "ContactorBConn"
+			(at 159.258 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
-			(at 153.67 84.455 0)
+		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical"
+			(at 151.13 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,8 +5509,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/3/0436450200_CRIMP_HOUSINGS-2866614.pdf"
-			(at 153.67 84.455 0)
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Molex/43650-0244?qs=XoD1gVtqLQuEe6RJ38AzJQ%3D%3D"
+			(at 151.13 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4936,7 +5519,90 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 84.455 0)
+			(at 151.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43650-0244"
+			(at 151.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57985d99-34fd-4913-a310-a9e3709226b1")
+		)
+		(pin "2"
+			(uuid "ac266cd8-04f8-4a61-8252-77bb683b5d27")
+		)
+		(pin "3"
+			(uuid "2ef006e3-073f-44a1-bbda-72514740500a")
+		)
+		(pin "4"
+			(uuid "3c723e3f-3f12-47ba-a650-e1a7703e05b9")
+		)
+		(instances
+			(project "ContactorDriver"
+				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 228.6 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3790c613-6a8c-4038-a88c-cb13fa811b38")
+		(property "Reference" "J5"
+			(at 228.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FanConn2"
+			(at 228.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/3/0436450200_CRIMP_HOUSINGS-2866614.pdf"
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4945,7 +5611,7 @@
 			)
 		)
 		(property "P/N" "0436450200"
-			(at 153.67 84.455 0)
+			(at 228.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,6 +5794,84 @@
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 110.49 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ab0afb0-3f2c-486d-bebb-25f89f9fbea5")
+		(property "Reference" "R4"
+			(at 111.9886 148.6916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 111.9886 151.003 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 110.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/210/Kamaya_RMC_automotive_series_8_2022__1_-3032429.pdf"
+			(at 110.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805100KFKEAC"
+			(at 110.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ab4b7c5-caf6-45c9-a088-75af9d37d77d")
+		)
+		(pin "2"
+			(uuid "71e2af17-38b6-4db5-af17-0247cbf24761")
+		)
+		(instances
+			(project "ContactorDriver"
+				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5531,7 +6275,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 134.62 84.455 0)
+		(at 209.55 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5540,7 +6284,7 @@
 		(dnp no)
 		(uuid "cf668d1b-16ec-469b-b690-490d79f9409d")
 		(property "Reference" "J4"
-			(at 134.62 79.375 0)
+			(at 209.55 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,7 +6292,7 @@
 			)
 		)
 		(property "Value" "FanConn1"
-			(at 134.62 81.915 0)
+			(at 209.55 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +6300,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
-			(at 134.62 84.455 0)
+			(at 209.55 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +6309,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/3/0436450200_CRIMP_HOUSINGS-2866614.pdf"
-			(at 134.62 84.455 0)
+			(at 209.55 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,7 +6318,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 84.455 0)
+			(at 209.55 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +6327,7 @@
 			)
 		)
 		(property "P/N" "0436450200"
-			(at 134.62 84.455 0)
+			(at 209.55 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,18 +6351,16 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 158.75 90.17 0)
+		(at 129.54 158.115 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d52a3cb3-e5c9-49d7-a48a-c6554e407e49")
-		(property "Reference" "#PWR06"
-			(at 158.75 96.52 0)
+		(uuid "d7241fb1-a22b-4517-a73e-383734fc4d67")
+		(property "Reference" "#PWR014"
+			(at 129.54 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,7 +6369,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 94.615 0)
+			(at 129.667 162.5092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,7 +6377,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 90.17 0)
+			(at 129.54 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,7 +6386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 90.17 0)
+			(at 129.54 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,8 +6394,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 90.17 0)
+		(property "Description" ""
+			(at 129.54 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,30 +6404,44 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4177400-c28c-496e-bc78-017f8684d1b4")
+			(uuid "05573afb-631c-4608-868f-f6e741a0f68e")
 		)
 		(instances
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "#PWR06")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 139.7 90.17 0)
+		(lib_id "Device:R_Small")
+		(at 104.775 109.855 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4b4d046-c837-4e56-9288-99e78f8d1e18")
-		(property "Reference" "#PWR09"
-			(at 139.7 96.52 0)
+		(uuid "daf6fdc6-5a27-4b30-ab01-c2a49192d359")
+		(property "Reference" "R3"
+			(at 99.7966 109.855 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 102.108 109.855 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 104.775 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,16 +6449,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 139.7 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 90.17 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/210/Kamaya_RMC_automotive_series_8_2022__1_-3032429.pdf"
+			(at 104.775 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,8 +6458,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 139.7 90.17 0)
+		(property "Description" ""
+			(at 104.775 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,8 +6467,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 90.17 0)
+		(property "P/N" "RT0603FRE0710KL "
+			(at 104.775 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,12 +6477,114 @@
 			)
 		)
 		(pin "1"
-			(uuid "da1902c3-48a1-47d1-815e-9792a9ccd74c")
+			(uuid "76336471-1fcd-4c3d-a467-8aac17bdb09b")
+		)
+		(pin "2"
+			(uuid "fedac308-7b41-45f8-aba5-a6a949d9c20e")
 		)
 		(instances
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "#PWR09")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS_GDS")
+		(at 127 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de62efe3-e151-4e8b-bf63-dc4a4980eeec")
+		(property "Reference" "Q2"
+			(at 132.1816 142.3416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD18511KTT"
+			(at 132.1816 144.653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 132.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd18511ktt.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1684781212318&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
+			(at 127 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CSD18511KTT"
+			(at 127 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" "40V"
+			(at 127 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 127 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3675da15-f79f-4f50-9514-1868273a2005")
+		)
+		(pin "2"
+			(uuid "0bd2a58e-0d90-4c78-a31a-8a1266207f5a")
+		)
+		(pin "3"
+			(uuid "ca1b98f4-5525-48aa-aec8-853f4e175936")
+		)
+		(instances
+			(project "ContactorDriver"
+				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5819,34 +6669,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 83.82 114.3 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 100.33 140.97 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fbab2c95-bad1-4bac-8c65-510b097b0d0d")
-		(property "Reference" "J3"
-			(at 87.63 114.3 0)
+		(uuid "f9de0225-bdf4-4901-81fe-88b3b45eb0b9")
+		(property "Reference" "J6"
+			(at 100.33 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "ContactorConn"
-			(at 100.33 116.84 0)
+		(property "Value" "DashboardConnB"
+			(at 100.33 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical"
-			(at 83.82 114.3 0)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+			(at 100.33 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,8 +6703,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Molex/43650-0244?qs=XoD1gVtqLQuEe6RJ38AzJQ%3D%3D"
-			(at 83.82 114.3 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/3/0436450200_CRIMP_HOUSINGS-2866614.pdf"
+			(at 100.33 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,7 +6713,85 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 114.3 0)
+			(at 100.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0436450200"
+			(at 100.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f8e093f-d68d-4a20-a892-37ad57d51306")
+		)
+		(pin "2"
+			(uuid "0adf4bd7-c8bd-4a2c-a978-cfd585cace95")
+		)
+		(instances
+			(project "ContactorDriver"
+				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 85.09 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbab2c95-bad1-4bac-8c65-510b097b0d0d")
+		(property "Reference" "J3"
+			(at 86.36 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ContactorAConn"
+			(at 93.218 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x4xP3.00mm_PolarizingPeg_Vertical"
+			(at 85.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Molex/43650-0244?qs=XoD1gVtqLQuEe6RJ38AzJQ%3D%3D"
+			(at 85.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +6800,7 @@
 			)
 		)
 		(property "P/N" "43650-0244"
-			(at 83.82 114.3 0)
+			(at 85.09 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5903,6 +6830,149 @@
 			(project "BPS-Leader"
 				(path "/c248b171-df31-4e8a-afb6-607fa2df334b/00000000-0000-0000-0000-00005c38c674"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 251.46 84.455 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdef6b79-cd97-4783-936f-097967552a05")
+		(property "Reference" "#PWR015"
+			(at 251.46 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 251.841 80.0608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4718d87d-2f43-49e0-a721-c09768d7304c")
+		)
+		(instances
+			(project "ContactorDriver"
+				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 104.775 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdf61b63-692c-4000-addc-9615fc81833e")
+		(property "Reference" "BStatus"
+			(at 106.5022 115.6716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Green"
+			(at 106.5022 117.983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 104.775 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/445/150080GS75000-3084983.pdf"
+			(at 104.775 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.775 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LCGCK"
+			(at 104.775 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c758980f-f387-4de7-a598-6fabf44e1c6d")
+		)
+		(pin "2"
+			(uuid "cde92b33-c71c-4fbf-a4a8-61c95f926936")
+		)
+		(instances
+			(project "ContactorDriver"
+				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
+					(reference "BStatus")
 					(unit 1)
 				)
 			)
