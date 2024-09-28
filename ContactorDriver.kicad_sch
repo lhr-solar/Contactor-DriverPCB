@@ -3954,8 +3954,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e3a03dc")
-		(property "Reference" "12VStatus1"
-			(at 148.59 46.101 90)
+		(property "Reference" "12V1"
+			(at 143.51 46.355 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,7 +4017,7 @@
 		(instances
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "12VStatus1")
+					(reference "12V1")
 					(unit 1)
 				)
 			)
