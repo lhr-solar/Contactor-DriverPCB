@@ -386,7 +386,7 @@
 				)
 			)
 		)
-		(symbol "Device:D"
+		(symbol "Device:D_Schottky"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -401,7 +401,7 @@
 					)
 				)
 			)
-			(property "Value" "D"
+			(property "Value" "D_Schottky"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -427,7 +427,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode"
+			(property "Description" "Schottky diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -436,25 +436,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -472,19 +454,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy -1.27 0)
@@ -509,8 +479,20 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "D_1_1"
+			(symbol "D_Schottky_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2758,9 +2740,9 @@
 		)
 		(uuid "164d6671-e275-488f-bd17-fe8d9fe0fbe5")
 	)
-	(text "v1.0\n- Allows control for 2 contactors, one to control precharge & one for power enable\n- LED's show whether contactors are closed & if power is enabled (3 LED's)\nv2.0\n- Controls only 1 precharge contactor\n- Input will just tell whether both sides are connected to power\n- Add comparator circuitry to determine whether precharge is complete\nv2.1\n- Changed Precharge Contactor Connector to be Molex Microfit since 3A max \ncurrent load at <.5s\nv2.1-Daybreak\n- Removed precharge resistor\n- Contactor is now driven exclusively by Controls"
+	(text "v1.0\n- Allows control for 2 contactors, one to control precharge & one for power enable\n- LED's show whether contactors are closed & if power is enabled (3 LED's)\nv2.0\n- Controls only 1 precharge contactor\n- Input will just tell whether both sides are connected to power\n- Add comparator circuitry to determine whether precharge is complete\nv2.1\n- Changed Precharge Contactor Connector to be Molex Microfit since 3A max \ncurrent load at <.5s\nv2.1-Daybreak\n- Removed precharge resistor\n- Contactor is now driven exclusively by Controls\n- Added Fan breakout power\n- Removed isolation"
 		(exclude_from_sim no)
-		(at 198.755 45.085 0)
+		(at 198.755 50.165 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4220,6 +4202,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 111.76 114.935 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "051e48e7-8f64-4288-8735-0caac7a3ef35")
+		(property "Reference" "D3"
+			(at 114.935 113.3474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VSSAF522"
+			(at 114.935 115.8874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Passive:DO-221AC"
+			(at 111.76 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/87453/vssaf522.pdf"
+			(at 111.76 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200V 2A Trench MOS Barrier Schottky Diode"
+			(at 111.76 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "641d9f1e-f1b2-4e95-b5bb-e8d737ec0f7a")
+		)
+		(pin "2"
+			(uuid "1ed5dfba-fe09-4ff9-9bb5-92f64994c5cf")
+		)
+		(instances
+			(project "ContactorDriver"
+				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 231.14 86.36 0)
 		(unit 1)
@@ -4356,93 +4408,6 @@
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 111.76 114.935 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e764244-5f1d-4cfb-96e2-31cbe98263f0")
-		(property "Reference" "D6"
-			(at 113.7666 113.7666 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V2F22HM3/H"
-			(at 113.7666 116.078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "UTSVT_Passive:V2F22HM"
-			(at 111.76 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/427/v2f22-1767661.pdf"
-			(at 111.76 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/Vishay-Semiconductors/V2F22HM3-H?qs=BJlw7L4Cy78MY7ajCA04cw%3D%3D"
-			(at 111.76 114.935 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "V2F22"
-			(at 111.76 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c938e188-2153-435c-8fd2-3079b22ce24c")
-		)
-		(pin "2"
-			(uuid "7acf8f0f-a967-4fa3-b508-68246e66a2ab")
-		)
-		(instances
-			(project "ContactorDriver"
-				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5446,6 +5411,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 45.72 114.935 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae4522dc-53bb-4867-bbfc-a464dc9a09f6")
+		(property "Reference" "D2"
+			(at 48.895 113.3474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VSSAF522"
+			(at 48.895 115.8874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Passive:DO-221AC"
+			(at 45.72 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/87453/vssaf522.pdf"
+			(at 45.72 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200V 2A Trench MOS Barrier Schottky Diode"
+			(at 45.72 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63700cff-c9f5-4667-aa7e-6813da72cb77")
+		)
+		(pin "2"
+			(uuid "1ddc6cad-c86a-4960-8906-4a11814d9b9c")
+		)
+		(instances
+			(project "ContactorDriver"
+				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SD12_SOD323")
 		(at 54.61 44.45 90)
 		(unit 1)
@@ -5528,99 +5563,6 @@
 				)
 				(path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d/60a4ab70-544e-48ed-aa76-f39bfcac39df"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 45.72 114.935 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bda82162-a13c-4385-995b-9aaeae43d896")
-		(property "Reference" "D3"
-			(at 47.7266 113.7666 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V2F22HM3/H"
-			(at 47.7266 116.078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "UTSVT_Passive:V2F22HM"
-			(at 45.72 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/427/v2f22-1767661.pdf"
-			(at 45.72 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/Vishay-Semiconductors/V2F22HM3-H?qs=BJlw7L4Cy78MY7ajCA04cw%3D%3D"
-			(at 45.72 114.935 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "V2F22"
-			(at 45.72 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05bfbe00-56ed-408f-86ec-05d82a5af3e9")
-		)
-		(pin "2"
-			(uuid "d3876cef-0bdf-4573-8c01-524c2ca488e2")
-		)
-		(instances
-			(project "ContactorDriver"
-				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-			(project "BPS-Leader"
-				(path "/c248b171-df31-4e8a-afb6-607fa2df334b/00000000-0000-0000-0000-00005c38c674"
-					(reference "D12")
 					(unit 1)
 				)
 			)
