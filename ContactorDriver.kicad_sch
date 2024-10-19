@@ -6745,7 +6745,7 @@
 				)
 			)
 		)
-		(property "Value" "NDS356AP-VB"
+		(property "Value" "PMV35EPER"
 			(at 74.93 29.21 90)
 			(effects
 				(font
@@ -6753,7 +6753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 61.722 34.798 0)
 			(effects
 				(font
@@ -6762,7 +6762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211010930_VBsemi-Elec-NDS356AP-VB_C710027.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PMV35EPE-1539905.pdf"
 			(at 88.138 29.718 0)
 			(effects
 				(font
@@ -6771,7 +6771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 5.6A 46mΩ@10V,4.4A 2.5W 2V@250uA 1 Piece P-Channel SOT-23 MOSFETs ROHS"
+		(property "Description" "30V 5.3A 45mΩ@10V,4.4A 2.5W 2V@250uA 1 Piece P-Channel SOT-23 MOSFETs ROHS"
 			(at 90.932 27.686 0)
 			(effects
 				(font
@@ -7829,6 +7829,70 @@
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "utsvt-misc:Logo_Placeholder")
+		(at 243.84 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dff2901b-4953-45aa-b744-1da4966494e2")
+		(property "Reference" "LOGO4"
+			(at 243.84 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "UTSVT"
+			(at 247.65 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:UTSVT_Logo_Symbol"
+			(at 243.84 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Graph footprint placeholder"
+			(at 243.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ContactorDriver"
+				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
+					(reference "LOGO4")
 					(unit 1)
 				)
 			)
