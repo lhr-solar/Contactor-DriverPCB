@@ -1877,7 +1877,7 @@
 				)
 			)
 		)
-		(symbol "utsvt-chips:NDS356AP-VB"
+		(symbol "utsvt-chips:PMV35EPE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1889,7 +1889,7 @@
 					)
 				)
 			)
-			(property "Value" "NDS356AP-VB"
+			(property "Value" "PMV35EPE"
 				(at 10.414 -2.032 0)
 				(effects
 					(font
@@ -1906,7 +1906,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211010930_VBsemi-Elec-NDS356AP-VB_C710027.pdf"
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PMV35EPE-1539905.pdf"
 				(at 5.334 -13.208 0)
 				(effects
 					(font
@@ -1915,7 +1915,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "30V 5.6A 46mΩ@10V,4.4A 2.5W 2V@250uA 1 Piece P-Channel SOT-23 MOSFETs ROHS"
+			(property "Description" "30 V, P-channel Trench MOSFET"
 				(at 7.366 -16.002 0)
 				(effects
 					(font
@@ -1924,7 +1924,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NDS356AP-VB_0_1"
+			(symbol "PMV35EPE_0_1"
 				(polyline
 					(pts
 						(xy -1.016 0) (xy -3.81 0)
@@ -2091,11 +2091,11 @@
 					)
 				)
 			)
-			(symbol "NDS356AP-VB_1_1"
-				(pin passive line
-					(at 1.27 5.08 270)
+			(symbol "PMV35EPE_1_1"
+				(pin input line
+					(at -6.35 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2110,10 +2110,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -6.35 0 0)
+				(pin passive line
+					(at 1.27 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2129,9 +2129,9 @@
 					)
 				)
 				(pin passive line
-					(at 1.27 -5.08 90)
+					(at 1.27 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6728,7 +6728,7 @@
 		)
 	)
 	(symbol
-		(lib_id "utsvt-chips:NDS356AP-VB")
+		(lib_id "utsvt-chips:PMV35EPE")
 		(at 74.93 35.052 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6753,7 +6753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 61.722 34.798 0)
 			(effects
 				(font
@@ -6771,7 +6771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 5.3A 45mΩ@10V,4.4A 2.5W 2V@250uA 1 Piece P-Channel SOT-23 MOSFETs ROHS"
+		(property "Description" "30 V, P-channel Trench MOSFET"
 			(at 90.932 27.686 0)
 			(effects
 				(font
