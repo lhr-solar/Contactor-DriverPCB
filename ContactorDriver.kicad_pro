@@ -489,7 +489,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "ContactorDriver.net",
-      "plot": "",
+      "plot": "ContactorDriverGerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
