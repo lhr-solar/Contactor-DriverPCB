@@ -3118,7 +3118,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 156.21) (xy 115.062 156.21)
+			(xy 105.918 167.64) (xy 114.3 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3368,7 +3368,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 161.29) (xy 115.062 161.29)
+			(xy 105.918 172.72) (xy 114.3 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3488,7 +3488,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.072 156.21) (xy 80.518 156.21)
+			(xy 67.31 167.64) (xy 79.756 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3538,7 +3538,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.176 156.21) (xy 141.478 156.21)
+			(xy 137.414 167.64) (xy 140.716 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3668,7 +3668,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.138 156.21) (xy 91.44 156.21)
+			(xy 87.376 167.64) (xy 90.678 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3698,7 +3698,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 156.21) (xy 130.556 156.21)
+			(xy 117.348 167.64) (xy 129.794 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3878,7 +3878,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.907 156.21) (xy 30.353 156.21)
+			(xy 17.145 167.64) (xy 29.591 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3918,7 +3918,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 161.29) (xy 141.478 161.29)
+			(xy 131.318 172.72) (xy 140.716 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3948,7 +3948,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 161.29) (xy 91.44 161.29)
+			(xy 79.248 172.72) (xy 90.678 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3968,7 +3968,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.973 156.21) (xy 41.275 156.21)
+			(xy 37.211 167.64) (xy 40.513 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4098,7 +4098,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.718 161.29) (xy 165.1 161.29)
+			(xy 155.956 172.72) (xy 164.338 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4108,7 +4108,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.515 156.21) (xy 64.77 156.21)
+			(xy 55.753 167.64) (xy 64.008 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4128,7 +4128,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.515 161.29) (xy 64.77 161.29)
+			(xy 55.753 172.72) (xy 64.008 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4248,7 +4248,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.718 156.21) (xy 165.1 156.21)
+			(xy 155.956 167.64) (xy 164.338 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4268,7 +4268,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 161.29) (xy 41.275 161.29)
+			(xy 30.988 172.72) (xy 40.513 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4516,6 +4516,17 @@
 		)
 		(uuid "0a7d7f36-4e8c-4c3b-9c19-f45c4ed878c4")
 	)
+	(text "Auxilary pins sent back to Controls to see Contactor status"
+		(exclude_from_sim no)
+		(at 69.85 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11e3a476-9759-42d1-98a0-6969df339ae5")
+	)
 	(text "Drives 2 Fans"
 		(exclude_from_sim no)
 		(at 66.675 90.805 0)
@@ -4536,9 +4547,20 @@
 		)
 		(uuid "3ac401f1-649a-4f34-9250-828d9f6fadb2")
 	)
-	(text "v1.0\n- Allows control for 2 contactors, one to control precharge & one for power enable\n- LED's show whether contactors are closed & if power is enabled (3 LED's)\nv2.0\n- Controls only 1 precharge contactor\n- Input will just tell whether both sides are connected to power\n- Add comparator circuitry to determine whether precharge is complete\nv2.1\n- Changed Precharge Contactor Connector to be Molex Microfit since 3A max \ncurrent load at <.5s\nv2.1-Daybreak\n- Removed precharge resistor\n- Contactor is now driven exclusively by Controls\n- Added Fan breakout power\n- Removed isolation\n- Added 2 more contactor drivers (there are now 3)"
+	(text "We pass our 12V and Controls sends it back via an optoisolator once ready to close"
 		(exclude_from_sim no)
-		(at 198.755 50.165 0)
+		(at 71.12 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3be45e37-1d5b-4fac-89f2-4854cf6bb99a")
+	)
+	(text "v1.0\n- Allows control for 2 contactors, one to control precharge & one for power enable\n- LED's show whether contactors are closed & if power is enabled (3 LED's)\nv2.0\n- Controls only 1 precharge contactor\n- Input will just tell whether both sides are connected to power\n- Add comparator circuitry to determine whether precharge is complete\nv2.1\n- Changed Precharge Contactor Connector to be Molex Microfit since 3A max \ncurrent load at <.5s\nv2.1-Daybreak\n- Removed precharge resistor\n- Contactor is now driven exclusively by Controls\n- Added Fan breakout power\n- Removed isolation\n- Added 2 more contactor drivers (there are now 3)\n- Added Feedback Sense Pins w/ Opto's to send contactor status back to controls"
+		(exclude_from_sim no)
+		(at 199.39 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4557,6 +4579,19 @@
 			(justify left bottom)
 		)
 		(uuid "6aece123-fcaf-480d-a762-19bda6c49d0d")
+	)
+	(text "Sense Optoisolators"
+		(exclude_from_sim no)
+		(at 80.01 152.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "994c924d-74e7-4ab6-a77a-e4283cca44f1")
 	)
 	(text "Power Protection"
 		(exclude_from_sim no)
@@ -4614,9 +4649,9 @@
 		)
 		(uuid "c3de17dd-c712-4b90-83ea-dd46f60de169")
 	)
-	(text "Precharge Contactor Control"
+	(text "Contactor Control"
 		(exclude_from_sim no)
-		(at 20.32 76.2 0)
+		(at 93.98 78.74 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4628,7 +4663,7 @@
 		(uuid "ec602d74-859c-40ee-8cc0-3812516c5042")
 	)
 	(label "AUX_A-"
-		(at 64.77 161.29 180)
+		(at 64.008 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4672,7 +4707,7 @@
 		(uuid "1fd16fdd-343b-46e6-96b8-b39c8f5ef1dd")
 	)
 	(label "SENSE_B"
-		(at 68.072 156.21 0)
+		(at 67.31 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4683,7 +4718,7 @@
 		(uuid "27f533ed-92e1-49fd-b652-49ae6dff1c3f")
 	)
 	(label "AUX_C+"
-		(at 165.1 156.21 180)
+		(at 164.338 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4705,7 +4740,7 @@
 		(uuid "3161a9e0-ea5b-495c-a79e-e138814cdc01")
 	)
 	(label "AUX_B-"
-		(at 115.062 161.29 180)
+		(at 114.3 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4716,7 +4751,7 @@
 		(uuid "3b066ad9-59e7-4f52-a370-c70c996fcfaf")
 	)
 	(label "AUX_C-"
-		(at 165.1 161.29 180)
+		(at 164.338 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4727,7 +4762,7 @@
 		(uuid "4d9a62e9-d5d2-461b-9499-814b7d01b316")
 	)
 	(label "AUX_A+"
-		(at 64.77 156.21 180)
+		(at 64.008 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4771,7 +4806,7 @@
 		(uuid "7f71a005-6020-42ca-bd5a-044c22334262")
 	)
 	(label "SENSE_C"
-		(at 118.11 156.21 0)
+		(at 117.348 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4837,7 +4872,7 @@
 		(uuid "af68a352-cf41-4c77-a922-bd677e573e06")
 	)
 	(label "SENSE_A"
-		(at 17.907 156.21 0)
+		(at 17.145 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4925,7 +4960,7 @@
 		(uuid "f76c65f2-a775-4d36-bcf2-d76e1bff7cf4")
 	)
 	(label "AUX_B+"
-		(at 115.062 156.21 180)
+		(at 114.3 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6863,7 +6898,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:SFH617A-1")
-		(at 99.06 158.75 0)
+		(at 98.298 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6872,7 +6907,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e72c2c9-af89-4847-aaed-ee1901e42120")
 		(property "Reference" "U2"
-			(at 99.06 149.606 0)
+			(at 98.298 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6880,7 +6915,7 @@
 			)
 		)
 		(property "Value" "SFH617A-1"
-			(at 99.06 152.146 0)
+			(at 98.298 163.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,7 +6923,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 93.98 163.83 0)
+			(at 93.218 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6899,7 +6934,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/83740/sfh617a.pdf"
-			(at 99.06 158.75 0)
+			(at 98.298 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6909,7 +6944,7 @@
 			)
 		)
 		(property "Description" "Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4"
-			(at 99.06 158.75 0)
+			(at 98.298 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6940,7 +6975,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.163 156.21 90)
+		(at 33.401 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6948,7 +6983,7 @@
 		(dnp no)
 		(uuid "24ed871a-d6b3-4550-aceb-2e6aaf728f0c")
 		(property "Reference" "R9"
-			(at 34.163 153.924 90)
+			(at 33.401 165.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +6991,7 @@
 			)
 		)
 		(property "Value" "510"
-			(at 34.163 156.21 90)
+			(at 33.401 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,7 +6999,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 34.163 157.988 90)
+			(at 33.401 169.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6973,7 +7008,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.163 156.21 0)
+			(at 33.401 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6982,7 +7017,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 34.163 156.21 0)
+			(at 33.401 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7358,7 +7393,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 161.29 270)
+		(at 131.318 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7366,7 +7401,7 @@
 		(dnp no)
 		(uuid "308bead8-cf42-4391-9a4a-88347ba4f410")
 		(property "Reference" "#PWR021"
-			(at 125.73 161.29 0)
+			(at 124.968 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7375,7 +7410,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127.6858 161.417 0)
+			(at 126.9238 172.847 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,7 +7418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 161.29 0)
+			(at 131.318 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,7 +7427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 161.29 0)
+			(at 131.318 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7401,7 +7436,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 161.29 0)
+			(at 131.318 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8137,7 +8172,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:SFH617A-1")
-		(at 149.098 158.75 0)
+		(at 148.336 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8146,7 +8181,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c44d520-8901-4404-b041-28228c0d81c8")
 		(property "Reference" "U3"
-			(at 149.098 149.606 0)
+			(at 148.336 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8154,7 +8189,7 @@
 			)
 		)
 		(property "Value" "SFH617A-1"
-			(at 149.098 152.146 0)
+			(at 148.336 163.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,7 +8197,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 144.018 163.83 0)
+			(at 143.256 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8173,7 +8208,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/83740/sfh617a.pdf"
-			(at 149.098 158.75 0)
+			(at 148.336 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8183,7 +8218,7 @@
 			)
 		)
 		(property "Description" "Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4"
-			(at 149.098 158.75 0)
+			(at 148.336 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8835,7 +8870,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 161.29 270)
+		(at 79.248 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8843,7 +8878,7 @@
 		(dnp no)
 		(uuid "aa8f5d83-8e44-4b86-bbcb-a4cac9156417")
 		(property "Reference" "#PWR020"
-			(at 73.66 161.29 0)
+			(at 72.898 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8852,7 +8887,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 75.6158 161.417 0)
+			(at 74.8538 172.847 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8860,7 +8895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 161.29 0)
+			(at 79.248 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8869,7 +8904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 161.29 0)
+			(at 79.248 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8878,7 +8913,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 161.29 0)
+			(at 79.248 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8900,7 +8935,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 84.328 156.21 90)
+		(at 83.566 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8908,7 +8943,7 @@
 		(dnp no)
 		(uuid "ac3c46c9-7c61-4426-9f42-a8340ff790a1")
 		(property "Reference" "R10"
-			(at 84.328 153.924 90)
+			(at 83.566 165.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,7 +8951,7 @@
 			)
 		)
 		(property "Value" "510"
-			(at 84.328 156.21 90)
+			(at 83.566 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,7 +8959,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 84.328 157.988 90)
+			(at 83.566 169.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,7 +8968,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 84.328 156.21 0)
+			(at 83.566 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,7 +8977,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 84.328 156.21 0)
+			(at 83.566 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,7 +9324,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:SFH617A-1")
-		(at 48.895 158.75 0)
+		(at 48.133 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9298,7 +9333,7 @@
 		(fields_autoplaced yes)
 		(uuid "be1ccb78-6f84-4889-b5e1-da475f5931f1")
 		(property "Reference" "U1"
-			(at 48.895 149.606 0)
+			(at 48.133 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,7 +9341,7 @@
 			)
 		)
 		(property "Value" "SFH617A-1"
-			(at 48.895 152.146 0)
+			(at 48.133 163.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,7 +9349,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 43.815 163.83 0)
+			(at 43.053 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9325,7 +9360,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/83740/sfh617a.pdf"
-			(at 48.895 158.75 0)
+			(at 48.133 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9335,7 +9370,7 @@
 			)
 		)
 		(property "Description" "Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4"
-			(at 48.895 158.75 0)
+			(at 48.133 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9366,7 +9401,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 161.29 270)
+		(at 30.988 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9374,7 +9409,7 @@
 		(dnp no)
 		(uuid "c6793390-296c-4b15-879a-5258d6839fdd")
 		(property "Reference" "#PWR019"
-			(at 25.4 161.29 0)
+			(at 24.638 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9383,7 +9418,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.3558 161.417 0)
+			(at 26.5938 172.847 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9391,7 +9426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 161.29 0)
+			(at 30.988 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9400,7 +9435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 161.29 0)
+			(at 30.988 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9409,7 +9444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 161.29 0)
+			(at 30.988 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,7 +9543,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.366 156.21 90)
+		(at 133.604 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9516,7 +9551,7 @@
 		(dnp no)
 		(uuid "d5a0711e-5d88-4344-936f-2ea256fdf25c")
 		(property "Reference" "R11"
-			(at 134.366 153.924 90)
+			(at 133.604 165.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9524,7 +9559,7 @@
 			)
 		)
 		(property "Value" "510"
-			(at 134.366 156.21 90)
+			(at 133.604 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9532,7 +9567,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 134.366 157.988 90)
+			(at 133.604 169.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,7 +9576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.366 156.21 0)
+			(at 133.604 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9550,7 +9585,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.366 156.21 0)
+			(at 133.604 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
