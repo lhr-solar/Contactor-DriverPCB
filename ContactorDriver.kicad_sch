@@ -3058,6 +3058,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.988 172.72) (xy 40.64 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010a18e4-7a87-4eb5-8c4e-aa2882c41eb2")
+	)
+	(wire
+		(pts
 			(xy 166.37 132.715) (xy 166.37 135.255)
 		)
 		(stroke
@@ -3115,16 +3125,6 @@
 			(type default)
 		)
 		(uuid "09ce13f0-f68b-4a90-ae08-9274f8e24f6d")
-	)
-	(wire
-		(pts
-			(xy 105.918 167.64) (xy 114.3 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ade23a1-29bf-478d-809d-d785ec14935e")
 	)
 	(wire
 		(pts
@@ -3248,6 +3248,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.045 167.64) (xy 114.173 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c08b03-436b-4cf1-89ba-4b6fb3f1da06")
+	)
+	(wire
+		(pts
 			(xy 52.197 61.722) (xy 55.372 61.722)
 		)
 		(stroke
@@ -3295,6 +3305,16 @@
 			(type default)
 		)
 		(uuid "2e1233bf-efb0-403e-a452-3796ae4c98d9")
+	)
+	(wire
+		(pts
+			(xy 55.88 167.64) (xy 64.008 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "316fce38-6505-4865-8433-c34341236f6f")
 	)
 	(wire
 		(pts
@@ -3368,16 +3388,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.918 172.72) (xy 114.3 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e9dc212-c1f6-490d-aa10-6f2ae6f5c177")
-	)
-	(wire
-		(pts
 			(xy 176.53 100.965) (xy 176.53 107.315)
 		)
 		(stroke
@@ -3435,6 +3445,16 @@
 			(type default)
 		)
 		(uuid "425da620-f63c-470b-8918-49e6d55cfacd")
+	)
+	(wire
+		(pts
+			(xy 156.21 167.64) (xy 164.338 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f3b6a2-65a6-493d-9b8d-6b5bfa3d3d73")
 	)
 	(wire
 		(pts
@@ -3538,7 +3558,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.414 167.64) (xy 140.716 167.64)
+			(xy 137.414 167.64) (xy 140.97 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3668,7 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.376 167.64) (xy 90.678 167.64)
+			(xy 87.376 167.64) (xy 90.805 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3798,6 +3818,26 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 172.72) (xy 164.338 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "824b3243-af34-44e9-b3de-5d5e59e77171")
+	)
+	(wire
+		(pts
+			(xy 106.045 172.72) (xy 114.173 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "824ebf05-3973-4ee7-bbcf-dbee62f2f0ef")
+	)
+	(wire
+		(pts
 			(xy 74.93 49.784) (xy 80.772 49.784)
 		)
 		(stroke
@@ -3918,7 +3958,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.318 172.72) (xy 140.716 172.72)
+			(xy 131.318 172.72) (xy 140.97 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3948,7 +3988,17 @@
 	)
 	(wire
 		(pts
-			(xy 79.248 172.72) (xy 90.678 172.72)
+			(xy 37.211 167.64) (xy 40.64 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f59424d-b0e3-46e0-982e-d11aaa6a829e")
+	)
+	(wire
+		(pts
+			(xy 79.248 172.72) (xy 90.805 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3965,16 +4015,6 @@
 			(type default)
 		)
 		(uuid "9f86c95c-c4fc-4cce-977e-d792d14aeff9")
-	)
-	(wire
-		(pts
-			(xy 37.211 167.64) (xy 40.513 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0a5dd64-884e-4295-8d42-f71e4d090006")
 	)
 	(wire
 		(pts
@@ -4098,26 +4138,6 @@
 	)
 	(wire
 		(pts
-			(xy 155.956 172.72) (xy 164.338 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b940332f-10bb-45fd-af64-011ac335b8db")
-	)
-	(wire
-		(pts
-			(xy 55.753 167.64) (xy 64.008 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b99f4608-2111-422f-849d-349e01b36b30")
-	)
-	(wire
-		(pts
 			(xy 74.93 49.784) (xy 74.93 55.372)
 		)
 		(stroke
@@ -4125,16 +4145,6 @@
 			(type default)
 		)
 		(uuid "baca822b-b9df-4188-b8dc-322fca69f6fb")
-	)
-	(wire
-		(pts
-			(xy 55.753 172.72) (xy 64.008 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bad068c1-dee9-4c96-ab37-ad211ccd615b")
 	)
 	(wire
 		(pts
@@ -4248,16 +4258,6 @@
 	)
 	(wire
 		(pts
-			(xy 155.956 167.64) (xy 164.338 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d21df4ae-f0e0-436d-8cff-62c79cfc6cbc")
-	)
-	(wire
-		(pts
 			(xy 56.515 97.155) (xy 74.295 97.155)
 		)
 		(stroke
@@ -4265,16 +4265,6 @@
 			(type default)
 		)
 		(uuid "d27e4d08-9d09-4e95-86f1-e5b376bf0817")
-	)
-	(wire
-		(pts
-			(xy 30.988 172.72) (xy 40.513 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2a23d1c-d0e8-4119-9916-90dc2d2254fb")
 	)
 	(wire
 		(pts
@@ -4355,6 +4345,16 @@
 			(type default)
 		)
 		(uuid "e4e3d633-da09-42b4-97cb-11672dea9000")
+	)
+	(wire
+		(pts
+			(xy 55.88 172.72) (xy 64.008 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5afce21-980d-4626-9333-19b011c82a5b")
 	)
 	(wire
 		(pts
@@ -4662,17 +4662,6 @@
 		)
 		(uuid "ec602d74-859c-40ee-8cc0-3812516c5042")
 	)
-	(label "AUX_A-"
-		(at 64.008 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "09164a37-e909-47af-93e6-b4449646fdbe")
-	)
 	(label "CONTACTOR_C_V-"
 		(at 177.8 100.965 0)
 		(fields_autoplaced yes)
@@ -4717,8 +4706,8 @@
 		)
 		(uuid "27f533ed-92e1-49fd-b652-49ae6dff1c3f")
 	)
-	(label "AUX_C+"
-		(at 164.338 167.64 180)
+	(label "AUX_B+"
+		(at 114.173 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4726,7 +4715,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "30c14e40-d0d8-4738-9ef9-2a3aa559b65d")
+		(uuid "30f481d8-64e6-4f16-8501-376248423d8e")
 	)
 	(label "CONTACTOR_A_V+"
 		(at 57.785 97.155 0)
@@ -4738,28 +4727,6 @@
 			(justify left bottom)
 		)
 		(uuid "3161a9e0-ea5b-495c-a79e-e138814cdc01")
-	)
-	(label "AUX_B-"
-		(at 114.3 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3b066ad9-59e7-4f52-a370-c70c996fcfaf")
-	)
-	(label "AUX_C-"
-		(at 164.338 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4d9a62e9-d5d2-461b-9499-814b7d01b316")
 	)
 	(label "AUX_A+"
 		(at 64.008 167.64 180)
@@ -4915,6 +4882,17 @@
 		)
 		(uuid "cca9cd18-8040-4987-8798-a72179ddc0ed")
 	)
+	(label "AUX_B-"
+		(at 114.173 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf0d39b8-441a-479b-8618-8c2d4f5b8d66")
+	)
 	(label "CONTACTOR_A_V-"
 		(at 239.395 88.265 270)
 		(fields_autoplaced yes)
@@ -4948,6 +4926,39 @@
 		)
 		(uuid "e7d5a2a4-3bdf-429a-9c65-cc7bc1277bd4")
 	)
+	(label "AUX_A-"
+		(at 64.008 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebb87c02-2953-44e6-a137-02c9e779dd48")
+	)
+	(label "AUX_C+"
+		(at 164.338 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed3ce139-78ee-4544-923f-ce040399e6d2")
+	)
+	(label "AUX_C-"
+		(at 164.338 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6be1d9b-f936-42bb-8d30-a4212ffb69e6")
+	)
 	(label "CONTACTOR_A_V-"
 		(at 220.345 88.265 270)
 		(fields_autoplaced yes)
@@ -4958,17 +4969,6 @@
 			(justify right bottom)
 		)
 		(uuid "f76c65f2-a775-4d36-bcf2-d76e1bff7cf4")
-	)
-	(label "AUX_B+"
-		(at 114.3 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "feb0ab4d-4c5c-447f-94a4-6f3689974997")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6447,6 +6447,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Isolator:SFH617A-1")
+		(at 98.425 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "110dcdf2-e080-4f76-bce4-b49a7788f2b2")
+		(property "Reference" "U2"
+			(at 98.425 161.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL3H7"
+			(at 98.425 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 93.345 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/143/EVER_S_A0005045010_1-2548609.pdf"
+			(at 98.425 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 98.425 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3d504b03-3267-46b1-b739-b5f30614cbae")
+		)
+		(pin "1"
+			(uuid "600d201d-fd4e-4d86-8030-1fc104c40423")
+		)
+		(pin "3"
+			(uuid "fca9bf3e-16f7-4831-97f0-beefc6301dde")
+		)
+		(pin "2"
+			(uuid "76b002d7-8591-4fed-b9cd-91d2662e4984")
+		)
+		(instances
+			(project "ContactorDriver"
+				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 46.355 128.905 180)
 		(unit 1)
@@ -6891,83 +6968,6 @@
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:SFH617A-1")
-		(at 98.298 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e72c2c9-af89-4847-aaed-ee1901e42120")
-		(property "Reference" "U2"
-			(at 98.298 161.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SFH617A-1"
-			(at 98.298 163.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 93.218 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83740/sfh617a.pdf"
-			(at 98.298 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4"
-			(at 98.298 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "ee5a8321-0a37-4392-a272-16ce7a272167")
-		)
-		(pin "1"
-			(uuid "4c990a40-2283-423b-abcc-b81b4e8cb087")
-		)
-		(pin "3"
-			(uuid "6590c59a-d8cd-4eae-b768-c24439861bc1")
-		)
-		(pin "2"
-			(uuid "61cd31e1-19b7-4942-a168-6dbd87ebfeb2")
-		)
-		(instances
-			(project "ContactorDriver"
-				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8171,83 +8171,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:SFH617A-1")
-		(at 148.336 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c44d520-8901-4404-b041-28228c0d81c8")
-		(property "Reference" "U3"
-			(at 148.336 161.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SFH617A-1"
-			(at 148.336 163.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 143.256 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83740/sfh617a.pdf"
-			(at 148.336 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4"
-			(at 148.336 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "fa0edfb3-09ea-4aba-a454-1a8fe50d9ab3")
-		)
-		(pin "1"
-			(uuid "16e55f10-6a97-426f-9bc0-339f09a12421")
-		)
-		(pin "3"
-			(uuid "b06e0b48-759f-4ad7-94d6-59cfb6416753")
-		)
-		(pin "2"
-			(uuid "5f36e948-5c7b-4871-81ae-adc4fa67bc88")
-		)
-		(instances
-			(project "ContactorDriver"
-				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 152.4 97.155 180)
 		(unit 1)
@@ -8598,6 +8521,83 @@
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:SFH617A-1")
+		(at 48.26 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94cf2777-7d28-4abb-8fd7-c81b5ee86303")
+		(property "Reference" "U1"
+			(at 48.26 161.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL3H7"
+			(at 48.26 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 43.18 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/143/EVER_S_A0005045010_1-2548609.pdf"
+			(at 48.26 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "08a9895c-2a7f-428b-9c70-8aabf994aba5")
+		)
+		(pin "1"
+			(uuid "aea3d186-d545-4055-b6f0-88ed5dc70d2f")
+		)
+		(pin "3"
+			(uuid "97f38344-5a70-49a3-a9f6-ffa501928b73")
+		)
+		(pin "2"
+			(uuid "234b0d2b-4120-4fd9-b6ea-6a4c9468b9b8")
+		)
+		(instances
+			(project "ContactorDriver"
+				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9323,83 +9323,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:SFH617A-1")
-		(at 48.133 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be1ccb78-6f84-4889-b5e1-da475f5931f1")
-		(property "Reference" "U1"
-			(at 48.133 161.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SFH617A-1"
-			(at 48.133 163.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 43.053 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/83740/sfh617a.pdf"
-			(at 48.133 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4"
-			(at 48.133 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9a01f4a8-70f1-47cf-b742-cb4af6ec8cae")
-		)
-		(pin "1"
-			(uuid "b372cbf4-e0e9-4f8d-90e3-5e41e2e60192")
-		)
-		(pin "3"
-			(uuid "acc47ccf-bcea-4400-a877-08a5e65fdd8b")
-		)
-		(pin "2"
-			(uuid "8310b60d-447a-4ec6-9c13-52a4c0cbfac9")
-		)
-		(instances
-			(project "ContactorDriver"
-				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 30.988 172.72 270)
 		(unit 1)
@@ -9536,6 +9459,83 @@
 			(project "ContactorDriver"
 				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:SFH617A-1")
+		(at 148.59 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3f49898-cc50-4817-a622-3387eef58d3d")
+		(property "Reference" "U3"
+			(at 148.59 161.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EL3H7"
+			(at 148.59 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
+			(at 143.51 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/143/EVER_S_A0005045010_1-2548609.pdf"
+			(at 148.59 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0fcac3ad-d35c-4eae-95cb-656e8347b8ac")
+		)
+		(pin "1"
+			(uuid "06eccd1e-d056-4122-b646-9dcdd70137fd")
+		)
+		(pin "3"
+			(uuid "fcaa5cd0-a68f-4ea7-8a9f-d2c0def6ac7c")
+		)
+		(pin "2"
+			(uuid "49e74875-ad9e-4271-b449-19bfd66da720")
+		)
+		(instances
+			(project "ContactorDriver"
+				(path "/aaa5c8ef-bb12-4c4a-bd2b-ddbca3d09ae8"
+					(reference "U3")
 					(unit 1)
 				)
 			)
