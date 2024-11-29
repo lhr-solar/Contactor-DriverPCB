@@ -5,4 +5,6 @@
   (lib (name "utsvt-chips")(type "KiCad")(uri "${KIPRJMOD}/UTSVTKiCadLibraries/utsvt-chips.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt-misc")(type "KiCad")(uri "${KIPRJMOD}/UTSVTKiCadLibraries/utsvt-misc.kicad_sym")(options "")(descr ""))
   (lib (name "ContactorDriver-rescue")(type "Legacy")(uri "${KIPRJMOD}/ContactorDriver-rescue.lib")(options "")(descr ""))
+  (lib (name "BZT52-B12-QX")(type "Legacy")(uri "${KIPRJMOD}/Project Specific Files/Zener/BZT52-B12-QX.lib")(options "")(descr ""))
+  (lib (name "IRLML0030TRPbF")(type "KiCad")(uri "${KIPRJMOD}/Project Specific Files/PMOS/IRLML0030TRPbF.kicad_sym")(options "")(descr ""))
 )
